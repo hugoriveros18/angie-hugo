@@ -1,4 +1,3 @@
-import React from "react";
 import { useParams } from "react-router-dom";
 import invitados from "../../variables/invitados";
 import IlustrationOne from '../../assets/img/main-page_ilustration1.jpg'
