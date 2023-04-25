@@ -9,6 +9,7 @@ function App() {
     <div className={`app__global-container`}>
       <Routes>
         <Route path='/invitacion/:nombreInvitado' element={<WeddingInvitation />}/>
+        <Route path='/' element={<WeddingInvitation />}/>
       </Routes>
     </div>
   )
