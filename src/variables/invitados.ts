@@ -2,7 +2,7 @@ const invitados:any = {
     "abuela-nena": "Abuela Nena",
     "raquel-sandra": "Abuela Raquel & Tía Sandra",
     "adrian-cami": "Adrian & Cami",
-    "alex-isabel": "Alex & Maria Isabel e Hijo",
+    "alex-isabel": "Alex, Maria Isabel & Jacobo",
     "andrea": "Andrea",
     "angie": "Angie",
     "carolina": "Carolina",
