@@ -3,10 +3,7 @@ import { participantes } from "../../variables/invitados";
 import IlustrationOne from '../../assets/img/main-page_ilustration1.jpg'
 import IlustrationTwo from '../../assets/img/main-page_ilustration2.jpg'
 import IlustrationThree from '../../assets/img/main-page_ilustration3.jpg'
-import IlustrationFour from '../../assets/img/main-page_ilustration4.jpg'
-import IlustrationFive from '../../assets/img/main-page_ilustration5.jpg'
 import AngieHugo from '../../assets/img/imagen-angie-hugo.jpg'
-import DressCode from '../../assets/img/dress-code.png'
 import './styles.css';
 
 const WeddingParticipation = () => {
