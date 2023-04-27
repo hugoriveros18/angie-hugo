@@ -195,3 +195,62 @@
 .content__image-two img {
     width: 100%;
 }
+
+@media screen and (min-width: 768px) {
+    .main-page__global-container {
+        padding: 15px 100px;
+    }
+
+    .content__global-container {
+        padding: 50px 100px;
+    }
+
+    .content__text-one p,
+    .content__text-two p {
+        font-size: 24px;
+    }
+
+    .ceremony-info__address,
+    .ceremony-info__hour {
+        font-size: 22px;
+    }
+
+    .content__text-one,
+    .content__text-two {
+        padding: 0 42px;
+    }
+
+    .content__ceremony-date {
+        max-width: 568px;
+        margin: 0 auto;
+    }
+
+    .content__image-one {
+        max-width: 480px;
+        margin: 30px auto 100px;
+    }
+
+    .content__formalities--dress {
+        display: flex;
+        flex-direction: column;
+    }
+    .content__formalities {
+        max-width: 388px;
+        margin: 0 auto 100px;
+    }
+
+    .content__image-two {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main-page__global-container {
+        padding: 15px 300px;
+    }
+
+    .content__text-one, .content__text-two {
+        padding: 0 291px;
+    }
+}

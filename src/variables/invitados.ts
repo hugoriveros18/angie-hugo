@@ -6,7 +6,7 @@ const invitados:any = {
     "andrea": "Andrea",
     "angie": "Angie",
     "carolina": "Carolina",
-    "danna-dylan": "Danna & Dylan",
+    "danna-stiven-dylan": "Danna, Stiven & Dylan",
     "diego-salazar": "Diego Salazar",
     "enrique-pulido": "Enrique Pulido",
     "estefania": "Estefania",
@@ -22,7 +22,15 @@ const invitados:any = {
     "priscila-dani": "Tía Priscila & Dani",
     "rafael-libia-primos": "Rafael, Libia & Primos",
     "shirley": "Shirley",
-    "william-nataly": "Tío William & Nataly"
+    "william-nataly": "Tío William & Nataly",
+    "giancarlo": "Giancarlo",
+    "janeth-rueda": "Janeth Rueda",
+    "nestor-rocio": "Nestor & Rocío",
+    "pablito": "Pablito"
 }
 
-export default invitados;
+const participantes: any = {
+    "javier-daisy": "Tío Javier & Daisy"
+}
+
+export { invitados, participantes };

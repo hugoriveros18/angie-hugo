@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import invitados from "../../variables/invitados";
+import { invitados } from "../../variables/invitados";
 import IlustrationOne from '../../assets/img/main-page_ilustration1.jpg'
 import IlustrationTwo from '../../assets/img/main-page_ilustration2.jpg'
 import IlustrationThree from '../../assets/img/main-page_ilustration3.jpg'
@@ -10,6 +10,10 @@ import DressCode from '../../assets/img/dress-code.png'
 import './styles.css';
 
 const WeddingInvitation = () => {
+
+    //VARIABLES
+    const message = "¡Hola! Quisiera confirmar mi asistencia a la ceremonia y recepción el día 3 de Junio";
+    const formattedMessage = message.replace(/ /g, '%20');
 
     //PARAMS
     const { nombreInvitado } = useParams();
@@ -82,7 +86,7 @@ const WeddingInvitation = () => {
                 </div>
 
                 <div className={`content__text-two`}>
-                    <p>POR FAVOR CONFIRMAR LA ASISTENCIA ANTES DEL 15 DE MAYO AL WHATSAPP 3163042458 O 3115292688</p>
+                    <p>POR FAVOR CONFIRMAR LA ASISTENCIA ANTES DEL 15 DE MAYO AL WHATSAPP <span><a href={`https://wa.me/3163042458?text=${formattedMessage}`}>3163042458</a></span> O <span><a href={`https://wa.me/3115292688?text=${formattedMessage}`}>3115292688</a></span></p>
                 </div>
 
 
@@ -92,7 +96,7 @@ const WeddingInvitation = () => {
                         <p>Dress code: formal</p>
                     </div>
                     <div className={`content__formalities--sobres`}>
-                        <p>Lluvia de Sobres y Amor ❤️</p>
+                        <p>Lluvia de Amor y Sobres</p>
                     </div>
                 </div>
 
