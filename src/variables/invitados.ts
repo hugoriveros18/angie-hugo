@@ -23,14 +23,17 @@ const invitados:any = {
     "rafael-libia-primos": "Rafael, Libia & Primos",
     "shirley": "Shirley",
     "william-nataly": "Tío William & Nataly",
-    "giancarlo": "Giancarlo",
+    "giancarlo-fajardo": "Giancarlo Fajardo",
     "janeth-rueda": "Janeth Rueda",
     "nestor-rocio": "Nestor & Rocío",
-    "pablito": "Pablito"
+    "pablito": "Pablito",
+    "javier-daisy": "Tío Javier & Daisy"
 }
 
 const participantes: any = {
     "javier-daisy": "Tío Javier & Daisy"
 }
 
-export { invitados, participantes };
+const invitadosIndividuales: string[] = ["andrea", "angie", "carolina", "diego-salazar", "enrique-pulido", "estefania", "joan", "mateo", "shirley", "giancarlo-fajardo", "janeth-rueda", "pablito", "juan-camilo"]
+
+export { invitados, participantes, invitadosIndividuales };
