@@ -196,6 +196,10 @@
     width: 100%;
 }
 
+.link-whatsapp {
+    color: #60885d;
+}
+
 @media screen and (min-width: 768px) {
     .main-page__global-container {
         padding: 15px 100px;

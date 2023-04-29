@@ -88,7 +88,7 @@ const WeddingInvitation = () => {
                     </div>
 
                     <div className={`content__text-two`}>
-                        <p>POR FAVOR CONFIRMAR LA ASISTENCIA ANTES DEL 15 DE MAYO AL WHATSAPP <span><a href={`https://wa.me/3163042458?text=${formattedMessage}`}>3163042458</a></span> O <span><a href={`https://wa.me/3115292688?text=${formattedMessage}`}>3115292688</a></span></p>
+                        <p>POR FAVOR CONFIRMAR LA ASISTENCIA ANTES DEL 15 DE MAYO AL WHATSAPP <span><a className="link-whatsapp" href={`https://wa.me/3163042458?text=${formattedMessage}`}>3163042458</a></span> O <span><a className="link-whatsapp" href={`https://wa.me/3115292688?text=${formattedMessage}`}>3115292688</a></span></p>
                     </div>
 
 
